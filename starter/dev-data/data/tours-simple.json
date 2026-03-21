@@ -205,19 +205,5 @@
             "2022-01-16,10:00",
             "2022-12-12,10:00"
         ]
-    },
-    {
-        "id": 9,
-        "name": "Test Tour",
-        "duration": 5,
-        "maxGroupSize": 25,
-        "difficulty": "easy"
-    },
-    {
-        "id": 10,
-        "name": "Test Tour23",
-        "duration": 5,
-        "maxGroupSize": 25,
-        "difficulty": "easy"
     }
 ]

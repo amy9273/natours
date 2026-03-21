@@ -16,7 +16,7 @@
     // READ JSON FILE
     const tours = JSON.parse(
         fs.readFileSync(
-            `${__dirname}/starter/dev-data/data/tours.json`,
+            `${__dirname}/starter/dev-data/data/tours-simple.json`,
             'utf-8',
         ),
     );
