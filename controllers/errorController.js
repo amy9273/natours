@@ -60,8 +60,9 @@ module.exports = (err, req, res, next) => {
 		if (err.name === 'CastError') err = handleCastErrorDB(err);
 		if (err.code === 11000) err = handleDuplicateFieldsDB(err);
 		if (err.name === 'ValidationError') err = handleValidationErrorDB(err);
-		if (error.name === 'JsonWebTokenError') error = handleJWTError();
-		if (error.name === 'TokenExpiredError') error = handleJWTExpiredError();
+		// FIXED LINES BELOW:
+		if (err.name === 'JsonWebTokenError') err = handleJWTError();
+		if (err.name === 'TokenExpiredError') err = handleJWTExpiredError();
 		sendErrorProd(err, res);
 	}
 };
