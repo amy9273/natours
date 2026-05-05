@@ -1,3 +1,4 @@
+# Dependencies
 node_modules/
 after-section-06/
 after-section-07/
@@ -8,5 +9,24 @@ after-section-11/
 after-section-12/
 after-section-13/
 after-section-14/
+
+# Environment variables (NEVER push these)
 config.env
 .env
+
+# Logs
+*.log
+npm-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+# Editor folders
+.vscode/
+
+# Old static design files (replaced by Pug views)
+starter/public/tour.html
+starter/public/overview.html
+
+# json data files (imported into MongoDB, no need to push)
+starter/data/

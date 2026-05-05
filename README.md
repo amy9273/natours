@@ -7,7 +7,7 @@ A simple Node.js backend project using Express and MongoDB.
 ## **1. Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/natours.git
+git clone https://github.com/amy9273/natours.git
 cd 4-natours
 ```
 
